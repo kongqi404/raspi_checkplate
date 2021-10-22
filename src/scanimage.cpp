@@ -15,7 +15,7 @@ int main()
     pr.setResultShow(0);
     pr.setDetectShow(easypr::PR_DETECT_CMSER|easypr::PR_DETECT_SOBEL);
     std::vector<easypr::CPlate> plateVec;
-    cv::Mat src = imread("./1.jpg");
+    cv::Mat src = imread("");
     int result = pr.plateRecognize(src,plateVec);
 
     for(auto plate : plateVec)
