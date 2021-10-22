@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kongqi/scsj/build",
+  "command": "/bin/g++-10  -I/home/kongqi/scsj/include -I/home/kongqi/scsj/easypr -I/home/kongqi/scsj/aip-cpp-sdk-4.15.7 -isystem /usr/include/jsoncpp -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Production_practice.dir/src/scanimage.cpp.o -c /home/kongqi/scsj/src/scanimage.cpp",
+  "file": "/home/kongqi/scsj/src/scanimage.cpp"
+}
+]
