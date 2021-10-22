@@ -22,9 +22,9 @@ int main()
     {
         std::cout<< plate.getPlateStr()<<std::endl;
     }
-    std::string app_id  = "25031553";
-    std::string api_key  = "77nFYZZWBBG3cVj9j0rsKV48";
-    std::string secret_key  = "2XE5eOll5DjAD7iOpGwWVRY5rH2l1BSy";
+    std::string app_id  = "";
+    std::string api_key  = "";
+    std::string secret_key  = "";
     aip::Ocr client(app_id,api_key,secret_key);
     Json::Value res;
 
