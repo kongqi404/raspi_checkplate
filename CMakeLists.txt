@@ -28,4 +28,4 @@ link_directories(${OpenSSL_LIBRARY_DIRS})
 # link_directories(${Torch_LIBRARY_DIRS})
 
 # target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS} ${TORCH_LIBRARIES})
-target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS}  jsoncpp_lib ${OpenSSL_LIBS} ${PROJECT_SOURCE_DIR}/lib/libcurl-d.so crypto ${PROJECT_SOURCE_DIR}/lib/libeasypr.so)
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS}  jsoncpp_lib ${OpenSSL_LIBS} ${PROJECT_SOURCE_DIR}/lib/libcurl-d.so crypto ${PROJECT_SOURCE_DIR}/lib/libeasypr.so wiringPi)

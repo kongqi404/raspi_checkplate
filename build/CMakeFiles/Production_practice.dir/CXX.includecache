@@ -240,6 +240,16 @@ vector
 opencv2/core/core.hpp
 ../easypr/easypr/util/opencv2/core/core.hpp
 
+../include/Platecheck.hpp
+easypr.h
+../include/easypr.h
+
+../include/Turnstile_operate.hpp
+wiringPi.h
+-
+softPwm.h
+-
+
 ../include/curl/curl.h
 curlver.h
 ../include/curl/curlver.h
@@ -308,17 +318,19 @@ sys/poll.h
 curl.h
 ../include/curl/curl.h
 
+../include/netoperator.h
+
 /home/kongqi/scsj/src/scanimage.cpp
 iostream
 -
-opencv2/opencv.hpp
--
-jsoncpp/json/json.h
--
 ocr.h
-/home/kongqi/scsj/src/ocr.h
-easypr.h
-/home/kongqi/scsj/src/easypr.h
+-
+Turnstile_operate.hpp
+-
+Platecheck.hpp
+-
+netoperator.h
+-
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

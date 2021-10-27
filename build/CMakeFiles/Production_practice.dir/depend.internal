@@ -28,6 +28,8 @@ CMakeFiles/Production_practice.dir/src/scanimage.cpp.o
  ../easypr/easypr/util/kv.h
  ../easypr/easypr/util/program_options.h
  ../easypr/easypr/util/util.h
+ ../include/Platecheck.hpp
+ ../include/Turnstile_operate.hpp
  ../include/curl/curl.h
  ../include/curl/curlver.h
  ../include/curl/easy.h
@@ -36,6 +38,7 @@ CMakeFiles/Production_practice.dir/src/scanimage.cpp.o
  ../include/curl/system.h
  ../include/curl/typecheck-gcc.h
  ../include/curl/urlapi.h
+ ../include/netoperator.h
  /home/kongqi/scsj/src/scanimage.cpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp

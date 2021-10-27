@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/Production_practice"
   "../bin/Production_practice.pdb"
+  "CMakeFiles/Production_practice.dir/src/netoperator.cpp.o"
   "CMakeFiles/Production_practice.dir/src/scanimage.cpp.o"
 )
 

@@ -27,6 +27,8 @@ CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../easypr/easypr/train/t
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../easypr/easypr/util/kv.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../easypr/easypr/util/program_options.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../easypr/easypr/util/util.h
+CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/Platecheck.hpp
+CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/Turnstile_operate.hpp
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/curl.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/curlver.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/easy.h
@@ -35,6 +37,7 @@ CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/options.
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/system.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/typecheck-gcc.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/curl/urlapi.h
+CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../include/netoperator.h
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: ../src/scanimage.cpp
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/Production_practice.dir/src/scanimage.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp

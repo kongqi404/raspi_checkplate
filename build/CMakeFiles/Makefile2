@@ -93,12 +93,12 @@ clean: CMakeFiles/Production_practice.dir/clean
 CMakeFiles/Production_practice.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kongqi/scsj/build/CMakeFiles --progress-num=1,2 "Built target Production_practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kongqi/scsj/build/CMakeFiles --progress-num=1,2,3 "Built target Production_practice"
 .PHONY : CMakeFiles/Production_practice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Production_practice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kongqi/scsj/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kongqi/scsj/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Production_practice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kongqi/scsj/build/CMakeFiles 0
 .PHONY : CMakeFiles/Production_practice.dir/rule

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kongqi/scsj/src/netoperator.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/netoperator.cpp.o"
   "/home/kongqi/scsj/src/scanimage.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/scanimage.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

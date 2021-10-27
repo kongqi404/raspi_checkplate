@@ -142,6 +142,33 @@ Production_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/build
 .PHONY : Production_practice/fast
 
+src/netoperator.o: src/netoperator.cpp.o
+
+.PHONY : src/netoperator.o
+
+# target to build an object file
+src/netoperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/netoperator.cpp.o
+.PHONY : src/netoperator.cpp.o
+
+src/netoperator.i: src/netoperator.cpp.i
+
+.PHONY : src/netoperator.i
+
+# target to preprocess a source file
+src/netoperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/netoperator.cpp.i
+.PHONY : src/netoperator.cpp.i
+
+src/netoperator.s: src/netoperator.cpp.s
+
+.PHONY : src/netoperator.s
+
+# target to generate assembly for a file
+src/netoperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/netoperator.cpp.s
+.PHONY : src/netoperator.cpp.s
+
 src/scanimage.o: src/scanimage.cpp.o
 
 .PHONY : src/scanimage.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Production_practice"
+	@echo "... src/netoperator.o"
+	@echo "... src/netoperator.i"
+	@echo "... src/netoperator.s"
 	@echo "... src/scanimage.o"
 	@echo "... src/scanimage.i"
 	@echo "... src/scanimage.s"

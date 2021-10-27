@@ -1,0 +1,1 @@
+int send_text(char *ip_str,char *port_str,char *text);
