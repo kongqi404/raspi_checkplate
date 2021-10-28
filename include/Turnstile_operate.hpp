@@ -57,7 +57,7 @@ int Turnstile_operate::ts_start()
     softPwmWrite(PORT,5);
     delay(1000);
     softPwmWrite(PORT,15);
-    delay(1000);
+    delay(5000);
     softPwmWrite(PORT,5);
     delay(1000);
     return 1;

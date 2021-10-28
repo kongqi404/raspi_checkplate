@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kongqi/scsj/src/netoperator.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/netoperator.cpp.o"
   "/home/kongqi/scsj/src/scanimage.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/scanimage.cpp.o"
+  "/home/kongqi/scsj/src/show_screen.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/show_screen.cpp.o"
+  "/home/kongqi/scsj/src/ssd1306_i2c.cpp" "/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir/src/ssd1306_i2c.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

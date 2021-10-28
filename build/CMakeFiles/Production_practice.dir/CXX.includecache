@@ -320,6 +320,8 @@ curl.h
 
 ../include/netoperator.h
 
+../include/show_screen.h
+
 /home/kongqi/scsj/src/scanimage.cpp
 iostream
 -
@@ -330,6 +332,12 @@ Turnstile_operate.hpp
 Platecheck.hpp
 -
 netoperator.h
+-
+assert.h
+-
+pthread.h
+-
+show_screen.h
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

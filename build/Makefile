@@ -196,6 +196,60 @@ src/scanimage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/scanimage.cpp.s
 .PHONY : src/scanimage.cpp.s
 
+src/show_screen.o: src/show_screen.cpp.o
+
+.PHONY : src/show_screen.o
+
+# target to build an object file
+src/show_screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/show_screen.cpp.o
+.PHONY : src/show_screen.cpp.o
+
+src/show_screen.i: src/show_screen.cpp.i
+
+.PHONY : src/show_screen.i
+
+# target to preprocess a source file
+src/show_screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/show_screen.cpp.i
+.PHONY : src/show_screen.cpp.i
+
+src/show_screen.s: src/show_screen.cpp.s
+
+.PHONY : src/show_screen.s
+
+# target to generate assembly for a file
+src/show_screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/show_screen.cpp.s
+.PHONY : src/show_screen.cpp.s
+
+src/ssd1306_i2c.o: src/ssd1306_i2c.cpp.o
+
+.PHONY : src/ssd1306_i2c.o
+
+# target to build an object file
+src/ssd1306_i2c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/ssd1306_i2c.cpp.o
+.PHONY : src/ssd1306_i2c.cpp.o
+
+src/ssd1306_i2c.i: src/ssd1306_i2c.cpp.i
+
+.PHONY : src/ssd1306_i2c.i
+
+# target to preprocess a source file
+src/ssd1306_i2c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/ssd1306_i2c.cpp.i
+.PHONY : src/ssd1306_i2c.cpp.i
+
+src/ssd1306_i2c.s: src/ssd1306_i2c.cpp.s
+
+.PHONY : src/ssd1306_i2c.s
+
+# target to generate assembly for a file
+src/ssd1306_i2c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production_practice.dir/build.make CMakeFiles/Production_practice.dir/src/ssd1306_i2c.cpp.s
+.PHONY : src/ssd1306_i2c.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,6 +265,12 @@ help:
 	@echo "... src/scanimage.o"
 	@echo "... src/scanimage.i"
 	@echo "... src/scanimage.s"
+	@echo "... src/show_screen.o"
+	@echo "... src/show_screen.i"
+	@echo "... src/show_screen.s"
+	@echo "... src/ssd1306_i2c.o"
+	@echo "... src/ssd1306_i2c.i"
+	@echo "... src/ssd1306_i2c.s"
 .PHONY : help
 
 
