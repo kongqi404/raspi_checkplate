@@ -1,3 +1,0 @@
-/home/kongqi/scsj/build/CMakeFiles/rebuild_cache.dir
-/home/kongqi/scsj/build/CMakeFiles/edit_cache.dir
-/home/kongqi/scsj/build/CMakeFiles/Production_practice.dir
